@@ -7,9 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 options = webdriver.ChromeOptions()
-options.add_argument("--allow-profiles-outside-user-dir")
-options.add_argument(r"user-data-dir=C:\Users\thefr\AppData\Local\Google\Chrome\User Data")
-options.add_argument("--profile-directory=Profile 4")
 options.add_argument("--mute-audio")
 
 driver = webdriver.Chrome(options=options)
