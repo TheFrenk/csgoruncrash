@@ -13,8 +13,8 @@ driver = webdriver.Chrome(options=options)
 
 url = "https://csgo5.run/crash"
 
-telegram_api_url = f'https://api.telegram.org/bot6898433254:AAHILffa6X-fcJGpp5MJfspOenyt03CEESo/sendMessage'
-chat_id = '-4010718437'
+telegram_api_url = f''
+chat_id = ''
 
 driver.get(url)
 
